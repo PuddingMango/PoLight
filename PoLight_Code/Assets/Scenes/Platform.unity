@@ -152,7 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85118acb104b94f308cb4e56f106bbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recoveryAmount: 20
+  isSpoiled: 1
+  recoveryAmount: 30
+  maxReductionAmount: 20
 --- !u!50 &71344106
 Rigidbody2D:
   serializedVersion: 5
@@ -399,7 +401,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1582,7 +1584,7 @@ Transform:
   m_GameObject: {fileID: 1477469423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.056, y: -3.581, z: 0}
+  m_LocalPosition: {x: -1.43, y: -3.59, z: 0}
   m_LocalScale: {x: 1.8895472, y: 1.8895472, z: 1.8895472}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1627,7 +1629,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85118acb104b94f308cb4e56f106bbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSpoiled: 0
   recoveryAmount: 20
+  maxReductionAmount: 10
 --- !u!1 &1539849129
 GameObject:
   m_ObjectHideFlags: 0

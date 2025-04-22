@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class FeedItem : MonoBehaviour
 {
-    public float recoveryAmount = 20f;
+    [Header("사료 설정")]
+    public bool isSpoiled = false; 
+    public float recoveryAmount = 20f; 
+    public float maxReductionAmount = 10f; 
 
     private Animator animator;
     private bool used = false;
@@ -15,16 +18,22 @@ public class FeedItem : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (used || !collision.CompareTag("Player")) return;
-
         used = true;
-        animator.SetTrigger("Play");
+
+        if (isSpoiled)
+            animator.SetTrigger("PlayBad");
+        else
+            animator.SetTrigger("PlayGood");
 
         HungerSystem hunger = FindFirstObjectByType<HungerSystem>();
         if (hunger != null)
         {
-            hunger.EatFeed(recoveryAmount);
+            if (isSpoiled)
+                hunger.EatSpoiledFeed(recoveryAmount, maxReductionAmount);
+            else
+                hunger.EatFeed(recoveryAmount);
         }
 
-        Destroy(gameObject, 0.4f); 
+        Destroy(gameObject, 0.4f);
     }
 }
