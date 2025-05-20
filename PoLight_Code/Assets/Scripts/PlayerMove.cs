@@ -2,16 +2,14 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-   
-    int jumpCount = 0;  //현재 점프 횟수
+    int jumpCount = 0;
 
     const float SPEED_JUMP = 7.0f;
-    const int MAX_JUMP_COUNT = 2;  //최대 점프 가능 횟수 (더블 점프)
+    const int MAX_JUMP_COUNT = 2;
 
     const float SPEED_WALK = 3.0f;
     const float SPEED_RUN = 6.0f;
-    const float DOUBLE_TAP_TIME = 0.3f;  //더블탭 인식 시간 간격
+    const float DOUBLE_TAP_TIME = 0.3f;
 
     Rigidbody2D rb;
 
@@ -24,70 +22,65 @@ public class PlayerMove : MonoBehaviour
     float lastLeftTapTime = -1f;
     float lastRightTapTime = -1f;
 
-    bool isGrounded = false;  //바닥에 닿아있는지 여부
+    bool isGrounded = false;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (rb != null)
         {
-            float moveSpeed = SPEED_WALK;  //기본 속도 = 걷기 속도
+            float moveSpeed = SPEED_WALK;
             Vector2 pos = transform.position;
 
-            //왼쪽 이동
             if (Input.GetKeyDown(KeyCode.A))
             {
-                if (Time.time - lastLeftTapTime < DOUBLE_TAP_TIME)  // 더블 탭 감지: 마지막 입력 시간과 현재 시간 비교
-                {
+                if (Time.time - lastLeftTapTime < DOUBLE_TAP_TIME)
                     isRunningLeft = true;
-                }
-                lastLeftTapTime = Time.time;  //마지막 입력 시간 갱신
-                leftPressed = true;
 
+                lastLeftTapTime = Time.time;
+                leftPressed = true;
             }
+
             if (Input.GetKeyUp(KeyCode.A))
             {
                 leftPressed = false;
                 isRunningLeft = false;
             }
+
             if (leftPressed)
             {
-                //달리기 중이면 속도 증가
                 moveSpeed = isRunningLeft ? SPEED_RUN : SPEED_WALK;
                 pos.x -= moveSpeed * Time.deltaTime;
             }
 
-            //오른쪽 이동
-            if (Input .GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.D))
             {
                 if (Time.time - lastRightTapTime < DOUBLE_TAP_TIME)
-                {
                     isRunningRight = true;
-                }
+
                 lastRightTapTime = Time.time;
                 rightPressed = true;
-
             }
-            if (Input.GetKeyUp (KeyCode.D))
+
+            if (Input.GetKeyUp(KeyCode.D))
             {
-                rightPressed= false;
+                rightPressed = false;
                 isRunningRight = false;
             }
+
             if (rightPressed)
             {
                 moveSpeed = isRunningRight ? SPEED_RUN : SPEED_WALK;
                 pos.x += moveSpeed * Time.deltaTime;
             }
 
-            transform.position = pos;  //실제 위치 반영
+            transform.position = pos;
 
-            //점프 + 땅에 닿았을 때만
-            if ((Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && jumpCount < MAX_JUMP_COUNT)
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && jumpCount < MAX_JUMP_COUNT)
             {
                 Vector2 moveVelocity = rb.linearVelocity;
                 moveVelocity.y = SPEED_JUMP;
@@ -103,12 +96,11 @@ public class PlayerMove : MonoBehaviour
         return isGrounded;
     }
 
-    // === 걸어가는지 여부를 반환 (애니메이션에서 사용) ===
     public bool IsWalking()
     {
         return (leftPressed || rightPressed) && !IsRunning();
     }
-    
+
     public bool IsRunning()
     {
         return isRunningLeft || isRunningRight;
@@ -129,21 +121,29 @@ public class PlayerMove : MonoBehaviour
         return rightPressed;
     }
 
-    // === 바닥에 닿았을 때 ===
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))  //바닥에 "Ground" 태그 붙이기
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded= true;
+            isGrounded = true;
             jumpCount = 0;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded= false;
+            isGrounded = true;
+            jumpCount = 0;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
         }
     }
 }

@@ -5,13 +5,13 @@ public class PlayerAnimation : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     Animator animator;
-    PlayerMove playerMove;  //ÀÌµ¿ »óÅÂ¸¦ °¡Á®¿À±â À§ÇÑ ÂüÁ¶
+    PlayerMove playerMove;  //ï¿½Ìµï¿½ ï¿½ï¿½ï¿½Â¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     SpriteRenderer spriteRenderer;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        playerMove = GetComponent<PlayerMove>();  //°°Àº ¿ÀºêÁ§Æ®¿¡ ºÙ¾î ÀÖ´Â PlayerMove ½ºÅ©¸³Æ® °¡Á®¿À±â
+        playerMove = GetComponent<PlayerMove>();  //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ù¾ï¿½ ï¿½Ö´ï¿½ PlayerMove ï¿½ï¿½Å©ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -20,11 +20,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (playerMove != null && animator != null)
         {
-            //Ä³¸¯ÅÍ°¡ °øÁß¿¡ ¶° ÀÖÀ¸¸é Á¡ÇÁ ¾Ö´Ï¸ÞÀÌ¼Ç ¿ì¼± Ãâ·Â
             bool isJumping = !playerMove.IsGrounded();
             animator.SetBool("isJumping", isJumping);
 
-            //Á¡ÇÁ ÁßÀÌ ¾Æ´Ï¾î¾ß °È±â / ´Þ¸®±â ÆÇº°
             if (isJumping)
             {
                 animator.SetBool("isRunning", false);
@@ -32,7 +30,6 @@ public class PlayerAnimation : MonoBehaviour
             }
             else
             {
-                //Á¡ÇÁ ÁßÀÌ¸é °È±â / ´Þ¸®±â false·Î ¼³Á¤ (¿ì¼±¼øÀ§ °­Á¦)
                 bool isRunning = playerMove.IsRunning();
                 bool isWalking = !isRunning && playerMove.IsWalking();
 
@@ -40,14 +37,13 @@ public class PlayerAnimation : MonoBehaviour
                 animator.SetBool("isWalking", isWalking);
             }
 
-            //ÁÂ¿ì ¹ÝÀü Ã³¸®
             if (playerMove.IsMovingLeft())
             {
-                spriteRenderer.flipX = true;  //¿ÞÂÊ
+                spriteRenderer.flipX = true;  //ï¿½ï¿½ï¿½ï¿½
             }
             else if (playerMove.IsMovingRight())
             {
-                spriteRenderer.flipX = false;  //¿À¸¥ÂÊ
+                spriteRenderer.flipX = false;  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             }
         }
     }
