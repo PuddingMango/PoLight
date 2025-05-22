@@ -5,9 +5,9 @@ public class PlayerMove : MonoBehaviour
     int jumpCount = 0;
 
     const float SPEED_JUMP = 7.0f;
-    const int MAX_JUMP_COUNT = 2;
+    const int MAX_JUMP_COUNT = 1;
 
-    const float SPEED_WALK = 3.0f;
+    const float SPEED_WALK = 4.0f;
     const float SPEED_RUN = 6.0f;
     const float DOUBLE_TAP_TIME = 0.3f;
 

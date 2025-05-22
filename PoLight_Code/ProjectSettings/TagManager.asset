@@ -39,6 +39,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackColor
+    uniqueID: 1550474577
+    locked: 0
+  - name: Background
+    uniqueID: 217737343
+    locked: 0
+  - name: Background_Top
+    uniqueID: 4056413381
+    locked: 0
+  - name: Buildings
+    uniqueID: 2401296275
+    locked: 0
+  - name: Background_obj
+    uniqueID: 4213154051
+    locked: 0
+  - name: obj
+    uniqueID: 1370761681
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
