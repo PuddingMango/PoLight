@@ -255,6 +255,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1459,7 +1472,61 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameOver_Fullset_0: -4837409805916784700
+      GameOver_Fullset_1: -5003860661612825442
+      GameOver_Fullset_10: 3517390685383671701
+      GameOver_Fullset_11: 1774263833001418962
+      GameOver_Fullset_12: -1298371498268229867
+      GameOver_Fullset_13: 5903238221759988520
+      GameOver_Fullset_14: -5357655427904563207
+      GameOver_Fullset_15: 8152801574362685308
+      GameOver_Fullset_16: -5702327117470464597
+      GameOver_Fullset_17: 3718883948113430102
+      GameOver_Fullset_18: 7310802453783622580
+      GameOver_Fullset_19: -1515141821536606986
+      GameOver_Fullset_2: -790260860520564561
+      GameOver_Fullset_20: -5587917092983967991
+      GameOver_Fullset_21: 5728757568150248759
+      GameOver_Fullset_22: 844729004679972496
+      GameOver_Fullset_23: 1895032133605472806
+      GameOver_Fullset_24: 5226856841968609434
+      GameOver_Fullset_25: -8942902359507968106
+      GameOver_Fullset_26: -4093668160516532076
+      GameOver_Fullset_27: 6270050326650607339
+      GameOver_Fullset_28: 9213739723026516505
+      GameOver_Fullset_29: 2328475910532607545
+      GameOver_Fullset_3: 5965638921056225892
+      GameOver_Fullset_30: -6065320000524597669
+      GameOver_Fullset_31: 2543303695206129848
+      GameOver_Fullset_32: -112440691769212837
+      GameOver_Fullset_33: 1894570364288083747
+      GameOver_Fullset_34: -4072262012146258880
+      GameOver_Fullset_35: -4653255033563251909
+      GameOver_Fullset_36: 293078208328891204
+      GameOver_Fullset_37: -4726591054599388383
+      GameOver_Fullset_38: 4915417962471179206
+      GameOver_Fullset_39: 4547402449941855626
+      GameOver_Fullset_4: 6724339994191032545
+      GameOver_Fullset_40: 4870579346640545960
+      GameOver_Fullset_41: 3784591098386568173
+      GameOver_Fullset_42: -6509273485476041149
+      GameOver_Fullset_43: -7429726172093726990
+      GameOver_Fullset_44: 6511050617436780853
+      GameOver_Fullset_45: 3240818288176753729
+      GameOver_Fullset_46: 4146226687654209724
+      GameOver_Fullset_47: -4961977253362097467
+      GameOver_Fullset_48: 8225702476842001371
+      GameOver_Fullset_49: 1194161286413205919
+      GameOver_Fullset_5: -7340706348805553844
+      GameOver_Fullset_50: -3055533746868236498
+      GameOver_Fullset_51: -9136034415511394751
+      GameOver_Fullset_52: -1198763723058182026
+      GameOver_Fullset_53: 3943458761882671318
+      GameOver_Fullset_6: -2845984308519526759
+      GameOver_Fullset_7: 8082924276791162258
+      GameOver_Fullset_8: -3240804192600461055
+      GameOver_Fullset_9: -4472615407540860311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

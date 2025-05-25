@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 571b570016d1b4aaa9f4a65fa9d4f55c
+guid: c8d5435d84ec746df82c5212d1366424
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8324449599011602385
-    second: back_gol_0
+      213: -4817109813926245885
+    second: cat_obj_sheet_0
   - first:
-      213: 4483112769175710932
-    second: back_gol_1
+      213: -6980849069912844066
+    second: cat_obj_sheet_1
   - first:
-      213: -6815784338720058013
-    second: back_gol_2
+      213: 1723815817319383927
+    second: cat_obj_sheet_2
   - first:
-      213: -4281390558078694249
-    second: back_gol_3
+      213: 8802634824343487131
+    second: cat_obj_sheet_3
   - first:
-      213: -414639423600125369
-    second: back_gol_4
+      213: 530531328527488453
+    second: cat_obj_sheet_4
   - first:
-      213: -4608175251591968181
-    second: back_gol_5
+      213: -8985604678013576384
+    second: cat_obj_sheet_5
   - first:
-      213: -4460008748954781511
-    second: back_gol_6
+      213: -2380152651174010418
+    second: cat_obj_sheet_6
+  - first:
+      213: 2641112209465529884
+    second: cat_obj_sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: back_gol_0
+      name: cat_obj_sheet_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 0
-        width: 482
-        height: 417
+        x: 274
+        y: 1849
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dfbab33ec2668370800000000000000
-      internalID: 8324449599011602385
+      spriteID: 30ac0e87520362db0800000000000000
+      internalID: -4817109813926245885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_1
+      name: cat_obj_sheet_1
       rect:
         serializedVersion: 2
-        x: 953
-        y: 0
-        width: 245
-        height: 607
+        x: 864
+        y: 1839
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dc6cbe9f47373e30800000000000000
-      internalID: 4483112769175710932
+      spriteID: ed89a3dc1ca0f1f90800000000000000
+      internalID: -6980849069912844066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_2
+      name: cat_obj_sheet_2
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 0
-        width: 490
-        height: 562
+        x: 1419
+        y: 1834
+        width: 162
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3659be861487961a0800000000000000
-      internalID: -6815784338720058013
+      spriteID: 77385894a593ce710800000000000000
+      internalID: 1723815817319383927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_3
+      name: cat_obj_sheet_3
       rect:
         serializedVersion: 2
-        x: 2055
-        y: 0
-        width: 1564
-        height: 821
+        x: 179
+        y: 1054
+        width: 242
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79c0201a8f17594c0800000000000000
-      internalID: -4281390558078694249
+      spriteID: b920a700cbd392a70800000000000000
+      internalID: 8802634824343487131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_4
+      name: cat_obj_sheet_4
       rect:
         serializedVersion: 2
-        x: 4328
-        y: 0
-        width: 1662
-        height: 814
+        x: 735
+        y: 996
+        width: 333
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74a117e14a7ee3af0800000000000000
-      internalID: -414639423600125369
+      spriteID: 5c5d813be63dc5700800000000000000
+      internalID: 530531328527488453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_5
+      name: cat_obj_sheet_5
       rect:
         serializedVersion: 2
-        x: 6032
-        y: 0
-        width: 1939
-        height: 1102
+        x: 1334
+        y: 1033
+        width: 332
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4a4d1a16097c00c0800000000000000
-      internalID: -4608175251591968181
+      spriteID: 04b99e23728bc4380800000000000000
+      internalID: -8985604678013576384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: back_gol_6
+      name: cat_obj_sheet_6
       rect:
         serializedVersion: 2
-        x: 7999
-        y: 0
-        width: 2001
-        height: 1104
+        x: 74
+        y: 94
+        width: 452
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +281,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b87a674cadda12c0800000000000000
-      internalID: -4460008748954781511
+      spriteID: ec1a19b36cff7fed0800000000000000
+      internalID: -2380152651174010418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_obj_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 602
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16d321bf8d17a420800000000000000
+      internalID: 2641112209465529884
       vertices: []
       indices: 
       edges: []
@@ -297,14 +322,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      back_gol_0: 8324449599011602385
-      back_gol_1: 4483112769175710932
-      back_gol_2: -6815784338720058013
-      back_gol_3: -4281390558078694249
-      back_gol_4: -414639423600125369
-      back_gol_5: -4608175251591968181
-      back_gol_6: -4460008748954781511
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
