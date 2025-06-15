@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackColor(back)
+    uniqueID: 1551704969
+    locked: 0
   - name: BackColor
     uniqueID: 1550474577
     locked: 0
@@ -62,6 +65,12 @@ TagManager:
     locked: 0
   - name: obj_front
     uniqueID: 1074380569
+    locked: 0
+  - name: Jump
+    uniqueID: 2682679057
+    locked: 0
+  - name: Player
+    uniqueID: 101023573
     locked: 0
   m_RenderingLayers:
   - Default
