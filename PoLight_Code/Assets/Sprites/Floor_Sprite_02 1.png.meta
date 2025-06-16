@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 6dd0943ab2b234978b06a39fae059141
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3459368177859287923
+    second: Floor_Sprite_02 1_0
+  - first:
+      213: 1161311008982925234
+    second: Floor_Sprite_02 1_1
+  - first:
+      213: -4351370535238770393
+    second: Floor_Sprite_02 1_2
+  - first:
+      213: 6227379656231557812
+    second: Floor_Sprite_02 1_3
+  - first:
+      213: 1642083564007219321
+    second: Floor_Sprite_02 1_4
+  - first:
+      213: 9128710980208299642
+    second: Floor_Sprite_02 1_5
+  - first:
+      213: -805470076249293773
+    second: Floor_Sprite_02 1_6
+  - first:
+      213: -7675884864028886123
+    second: Floor_Sprite_02 1_7
+  - first:
+      213: 5854247739110488239
+    second: Floor_Sprite_02 1_8
+  - first:
+      213: 906773042989678323
+    second: Floor_Sprite_02 1_9
+  - first:
+      213: -1010507612826363605
+    second: Floor_Sprite_02 1_10
+  - first:
+      213: 4284894103482848960
+    second: Floor_Sprite_02 1_11
+  - first:
+      213: -6859376505789552645
+    second: Floor_Sprite_02 1_12
+  - first:
+      213: 6489653307665951682
+    second: Floor_Sprite_02 1_13
+  - first:
+      213: -1900310582164366755
+    second: Floor_Sprite_02 1_14
+  - first:
+      213: 74936234533635473
+    second: Floor_Sprite_02 1_15
+  - first:
+      213: 7716209043913425783
+    second: Floor_Sprite_02 1_16
+  - first:
+      213: -1340142555107062843
+    second: Floor_Sprite_02 1_17
+  - first:
+      213: 6645219706325904170
+    second: Floor_Sprite_02 1_18
+  - first:
+      213: 341169705859191091
+    second: Floor_Sprite_02 1_19
+  - first:
+      213: -6132408689831608071
+    second: Floor_Sprite_02 1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 49
+        height: 45
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bd79c7705220030800000000000000
+      internalID: 3459368177859287923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 575
+        width: 50
+        height: 45
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf7d24b53ecd1010800000000000000
+      internalID: 1161311008982925234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 575
+        width: 49
+        height: 45
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721edf08d83dc93c0800000000000000
+      internalID: -4351370535238770393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba1d23adc81c6650800000000000000
+      internalID: 6227379656231557812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 479
+        width: 50
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97068242d4ad9c610800000000000000
+      internalID: 1642083564007219321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 479
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e06804542bfae70800000000000000
+      internalID: 9128710980208299642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c34f3bb3562d4f0800000000000000
+      internalID: -805470076249293773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 383
+        width: 50
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bb2ce7267c97590800000000000000
+      internalID: -7675884864028886123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa870d43d477e3150800000000000000
+      internalID: 5854247739110488239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3febc4f3741859c00800000000000000
+      internalID: 906773042989678323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 50
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2918a61ea4f9f1f0800000000000000
+      internalID: -1010507612826363605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6d24a1c70077b30800000000000000
+      internalID: 4284894103482848960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7e0c719699ec0a0800000000000000
+      internalID: -6859376505789552645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 50
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb2ed6bc41ef0a50800000000000000
+      internalID: 6489653307665951682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a5d23089db0a5e0800000000000000
+      internalID: -1900310582164366755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195ce28bb1a3a0100800000000000000
+      internalID: 74936234533635473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 50
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773cd134e3b751b60800000000000000
+      internalID: 7716209043913425783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 95
+        width: 49
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb857e427bd66de0800000000000000
+      internalID: -1340142555107062843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52, y: 1.946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b2bf17d10983c50800000000000000
+      internalID: 6645219706325904170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 50
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48, y: 1.946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319cd53a041cb400800000000000000
+      internalID: 341169705859191091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Sprite_02 1_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 49
+        height: 49
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0811999ce45eaa0800000000000000
+      internalID: -6132408689831608071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d61215dccf15a416f99194298401810e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Floor_Sprite_02 1_0: 3459368177859287923
+      Floor_Sprite_02 1_1: 1161311008982925234
+      Floor_Sprite_02 1_10: -1010507612826363605
+      Floor_Sprite_02 1_11: 4284894103482848960
+      Floor_Sprite_02 1_12: -6859376505789552645
+      Floor_Sprite_02 1_13: 6489653307665951682
+      Floor_Sprite_02 1_14: -1900310582164366755
+      Floor_Sprite_02 1_15: 74936234533635473
+      Floor_Sprite_02 1_16: 7716209043913425783
+      Floor_Sprite_02 1_17: -1340142555107062843
+      Floor_Sprite_02 1_18: 6645219706325904170
+      Floor_Sprite_02 1_19: 341169705859191091
+      Floor_Sprite_02 1_2: -4351370535238770393
+      Floor_Sprite_02 1_20: -6132408689831608071
+      Floor_Sprite_02 1_3: 6227379656231557812
+      Floor_Sprite_02 1_4: 1642083564007219321
+      Floor_Sprite_02 1_5: 9128710980208299642
+      Floor_Sprite_02 1_6: -805470076249293773
+      Floor_Sprite_02 1_7: -7675884864028886123
+      Floor_Sprite_02 1_8: 5854247739110488239
+      Floor_Sprite_02 1_9: 906773042989678323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeTrigger : MonoBehaviour
+public class ScenePortal : MonoBehaviour
 {
-    public string sceneToLoad;
+    [SerializeField] private string targetSceneName;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single); 
+            SceneTransitionData.nextSceneName = targetSceneName;
+            SceneManager.LoadScene("Loading");
         }
     }
 }
