@@ -1121,7 +1121,7 @@ Transform:
   m_GameObject: {fileID: 772079467}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.910352, y: 35, z: -10}
+  m_LocalPosition: {x: 11.9052925, y: 35, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2757,7 +2757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5439f33c80d8b4f6789a7e0d267d7012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Potal
+  targetSceneName: Potal
 --- !u!61 &1903219958
 BoxCollider2D:
   m_ObjectHideFlags: 0

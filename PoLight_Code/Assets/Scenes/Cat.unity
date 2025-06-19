@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5439f33c80d8b4f6789a7e0d267d7012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Potal
+  targetSceneName: Potal
 --- !u!61 &202563817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5439f33c80d8b4f6789a7e0d267d7012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Hamster
+  targetSceneName: Hamster
 --- !u!61 &264571518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4364,7 +4364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5439f33c80d8b4f6789a7e0d267d7012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: parrot
+  targetSceneName: Parrot
 --- !u!61 &1760154222
 BoxCollider2D:
   m_ObjectHideFlags: 0
