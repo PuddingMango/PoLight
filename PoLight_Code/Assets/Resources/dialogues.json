@@ -772,7 +772,7 @@
   {
     "id": "scene3_23",
     "speaker": "hamster",
-    "text": "(패닉에 빠진 듯 hamster의 상태가 나빠 보인다….)",
+    "text": "(패닉에 빠진 듯 햄스터의 상태가 나빠 보인다…)",
     "expression": "h_panic",
     "next_id": "scene3_24"
   },
@@ -1081,7 +1081,7 @@
     "id": "scene3_67",
     "speaker": "hamster",
     "text": "...동정은 하지 말아줘. 내가 더 비참해지거든.",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_68"
   },
   {
@@ -1130,7 +1130,7 @@
     "id": "scene3_74",
     "speaker": "hamster",
     "text": "...네 주인은 어떤 사람이었어?",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_75"
   },
   {
@@ -1172,14 +1172,14 @@
     "id": "scene3_80",
     "speaker": "hamster",
     "text": "진심을 알게 되면... 좋을 게 있어?",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_81"
   },
   {
     "id": "scene3_81",
     "speaker": "hamster",
     "text": "...마음만 다치게 될 게 뻔해.",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_82"
   },
   {
@@ -1207,14 +1207,14 @@
     "id": "scene3_85",
     "speaker": "hamster",
     "text": "······.",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_86"
   },
   {
     "id": "scene3_86",
     "speaker": "hamster",
     "text": "정말 낙천적이고 바보 같아···.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_87"
   },
   {
@@ -1249,28 +1249,28 @@
     "id": "scene3_91",
     "speaker": "hamster",
     "text": "너는... 좋은 강아지구나.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_92"
   },
   {
     "id": "scene3_92",
     "speaker": "hamster",
     "text": "내가 소리 지르고 예민하게 굴어도 나를 위해 계속 다가와 줬고···.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_93"
   },
   {
     "id": "scene3_93",
     "speaker": "hamster",
     "text": "처음 보는 나를 구하기 위해 손을 내밀어 주고···.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_94"
   },
   {
     "id": "scene3_94",
     "speaker": "hamster",
     "text": "내 이야기를 듣고 같이 눈물 흘려 줬어···.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_95"
   },
   {
@@ -1284,7 +1284,7 @@
     "id": "scene3_96",
     "speaker": "hamster",
     "text": "...아주 용맹하고 좋은 강아지야.",
-    "expression": "basic",
+    "expression": "h_happy",
     "next_id": "scene3_97"
   },
   {
@@ -1312,7 +1312,7 @@
     "id": "scene3_100",
     "speaker": "hamster",
     "text": "...너도 사실은 어둠이 무서워서 내가 같이 가줬으면 하는 거지?",
-    "expression": "basic",
+    "expression": "h_smile",
     "next_id": "scene3_101"
   },
   {
@@ -1431,7 +1431,7 @@
     "id": "scene3_117",
     "speaker": "hamster",
     "text": "...",
-    "expression": "basic",
+    "expression": "h_basic",
     "next_id": "scene3_118"
   },
   {
@@ -1499,21 +1499,21 @@
   },
   {
     "id": "scene4_4",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "이쪽도 좋고~ 저쪽도 나쁘지 않고···.",
     "expression": "bg_basic",
     "next_id": "scene4_5"
   },
   {
     "id": "scene4_5",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "이건 너무 평범해 보이는데?···",
     "expression": "bg_basic",
     "next_id": "scene4_6"
   },
   {
     "id": "scene4_6",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "흐음~ 좀 더 반짝이는 게 있으면 좋겠는데···.",
     "expression": "bg_basic",
     "next_id": "scene4_7"
@@ -1527,21 +1527,21 @@
   },
   {
     "id": "scene4_8",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "새로운 손님이네?",
     "expression": "bg_happy",
     "next_id": "scene4_9"
   },
   {
     "id": "scene4_9",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "이 높은 곳까지 누군가 올 줄은 몰랐는데~",
     "expression": "bg_happy",
     "next_id": "scene4_10"
   },
   {
     "id": "scene4_10",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "무슨 일로 왔어? 설마 나 보러 온 거야?",
     "expression": "bg_happy",
     "next_id": "scene4_11"
@@ -1569,28 +1569,28 @@
   },
   {
     "id": "scene4_14",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "용감한 강아지인 줄 알았더니~",
     "expression": "bg_happy",
     "next_id": "scene4_15"
   },
   {
     "id": "scene4_15",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "순 겁쟁이 강아지잖아~?",
     "expression": "bg_happy",
     "next_id": "scene4_16"
   },
   {
     "id": "scene4_16",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "난 새잖아. 하늘은 나의 영역이라고.",
     "expression": "bg_happy",
     "next_id": "scene4_17"
   },
   {
     "id": "scene4_17",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "설마 높은 곳이 무섭겠어?",
     "expression": "bg_happy",
     "next_id": "scene4_18"
@@ -1604,14 +1604,14 @@
   },
   {
     "id": "scene4_19",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "당연한 걸로 칭찬을 듣다니...",
     "expression": "bg_basic",
     "next_id": "scene4_20"
   },
   {
     "id": "scene4_20",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나쁘지 않네!",
     "expression": "bg_basic",
     "next_id": "scene4_21"
@@ -1625,35 +1625,35 @@
   },
   {
     "id": "scene4_22",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "반짝이는 깃털을 모으고 있었어.",
     "expression": "bg_basic",
     "next_id": "scene4_23"
   },
   {
     "id": "scene4_23",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내 날개를 다시 아름답게 만들고 싶거든~",
     "expression": "bg_basic",
     "next_id": "scene4_24"
   },
   {
     "id": "scene4_24",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "예쁜 날개를 만들어서 저 위를 날면 엄청 아름다워 보이겠지?",
     "expression": "bg_happy",
     "next_id": "scene4_25"
   },
   {
     "id": "scene4_25",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "난 아름다운 게 정말 좋아",
     "expression": "bg_basic",
     "next_id": "scene4_26"
   },
   {
     "id": "scene4_26",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "혹시 안 바쁘면 나 좀 도와주지 않을래~?",
     "expression": "bg_basic",
     "next_id": "scene4_27"
@@ -1688,35 +1688,35 @@
   },
   {
     "id": "scene4_31",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···.",
     "expression": "bg_sad",
     "next_id": "scene4_32"
   },
   {
     "id": "scene4_32",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "겁쟁이 강아지를 놀리려다가 순수한 질문에 정곡을 찔려버렸네~",
     "expression": "bg_happy",
     "next_id": "scene4_33"
   },
   {
     "id": "scene4_33",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "하하! 바보 같은 새. 멍청한 새대가리!",
     "expression": "bg_angry",
     "next_id": "scene4_34"
   },
   {
     "id": "scene4_34",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "앵무새가 아름답지도 못하고",
     "expression": "bg_angry",
     "next_id": "scene4_35"
   },
   {
     "id": "scene4_35",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "날지도 못하는 멍청한 새대가리!",
     "expression": "bg_angry",
     "next_id": "scene4_36"
@@ -1744,28 +1744,28 @@
   },
   {
     "id": "scene4_39",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내 주인이 항상 나에게 해주던 말을 따라 한 것뿐인걸?",
     "expression": "bg_basic",
     "next_id": "scene4_40"
   },
   {
     "id": "scene4_40",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "괜찮아.",
     "expression": "bg_basic",
     "next_id": "scene4_41"
   },
   {
     "id": "scene4_41",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "말을 따라 하는 건 그냥···.",
     "expression": "bg_basic",
     "next_id": "scene4_42"
   },
   {
     "id": "scene4_42",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "무의식적인 습관 같은 거야.",
     "expression": "bg_basic",
     "next_id": "scene4_43"
@@ -1786,28 +1786,28 @@
   },
   {
     "id": "scene4_45",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "왜 그렇게 놀라는 거야~?",
     "expression": "bg_happy",
     "next_id": "scene4_46"
   },
   {
     "id": "scene4_46",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나는 저런 소리밖에 못 들었어. 평생!",
     "expression": "bg_happy",
     "next_id": "scene4_47"
   },
   {
     "id": "scene4_47",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그렇게 나쁜 말도 아니지 않아?",
     "expression": "bg_happy",
     "next_id": "scene4_48"
   },
   {
     "id": "scene4_48",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···내가 날지 못하는 건 사실이니까.",
     "expression": "bg_happy",
     "next_id": "scene4_49"
@@ -1863,28 +1863,28 @@
   },
   {
     "id": "scene4_56",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "······.",
     "expression": "bg_basic",
     "next_id": "scene4_57"
   },
   {
     "id": "scene4_57",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···네가 무슨 생각을 하고 있는지 알겠는데,",
     "expression": "bg_basic",
     "next_id": "scene4_58"
   },
   {
     "id": "scene4_58",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내가 새로운 삶을 살게 되더라도",
     "expression": "bg_basic",
     "next_id": "scene4_59"
   },
   {
     "id": "scene4_59",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그 삶이 행복할지는 모르는 거 아니야~?",
     "expression": "bg_basic",
     "next_id": "scene4_60"
@@ -1905,21 +1905,21 @@
   },
   {
     "id": "scene4_62",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...무, 뭐??",
     "expression": "bg_emb",
     "next_id": "scene4_63"
   },
   {
     "id": "scene4_63",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "지금 나한테 겁쟁이라고 한 거야?",
     "expression": "bg_emb",
     "next_id": "scene4_64"
   },
   {
     "id": "scene4_64",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "(강아지의 반응에 당황한다.)",
     "expression": "bg_emb",
     "next_id": "scene4_65"
@@ -1943,7 +1943,7 @@
     "speaker": "player",
     "text": "...깃털, 전부 모아 올 거야!",
     "expression": "confidence",
-    "next_id": "scene4_68"
+    "next_id": null
   },
   {
     "id": "scene4_68",
@@ -1975,98 +1975,98 @@
   },
   {
     "id": "scene4_72",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...너처럼 바보 같은 강아지는 정말 처음이야.",
     "expression": "b_emb",
     "next_id": "scene4_73"
   },
   {
     "id": "scene4_73",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "······.",
     "expression": "b_basic",
     "next_id": "scene4_74"
   },
   {
     "id": "scene4_74",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···성의를 봐서 내 이야기를 들려줄게.",
     "expression": "b_basic",
     "next_id": "scene4_75"
   },
   {
     "id": "scene4_75",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나는 펫샵이라는 집에서 처음으로 주인과 만났어.",
     "expression": "b_basic",
     "next_id": "scene4_76"
   },
   {
     "id": "scene4_76",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내 화려한 모습이 꽤 주인의 마음에 들었나 봐~",
     "expression": "b_basic",
     "next_id": "scene4_77"
   },
   {
     "id": "scene4_77",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나를 새로운 집에서 자유롭게 풀어줬어.",
     "expression": "b_basic",
     "next_id": "scene4_78"
   },
   {
     "id": "scene4_78",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "벽이랑 창문에 부리도 갈면서 엄청 즐거웠는데.",
     "expression": "b_sad",
     "next_id": "scene4_79"
   },
   {
     "id": "scene4_79",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "멍청한 앵무새!",
     "expression": "b_angry",
     "next_id": "scene4_80"
   },
   {
     "id": "scene4_80",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "또 집을 난장판으로 만들어놨잖아. 가만히 안 있어?",
     "expression": "b_angry",
     "next_id": "scene4_81"
   },
   {
     "id": "scene4_81",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "··· 억울해. 내 잘못이 아닌데!",
     "expression": "b_sad",
     "next_id": "scene4_82"
   },
   {
     "id": "scene4_82",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "이건 그저... 나의 습성일 뿐인데.",
     "expression": "b_sad",
     "next_id": "scene4_83"
   },
   {
     "id": "scene4_83",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "오직 외관만 보고 나를 입양한 주인은",
     "expression": "b_sad",
     "next_id": "scene4_84"
   },
   {
     "id": "scene4_84",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나에 관한 공부가 전혀 되어 있지 않았어!",
     "expression": "b_sad",
     "next_id": "scene4_85"
   },
   {
     "id": "scene4_85",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "무책임해! 무책임해!",
     "expression": "b_sad",
     "next_id": "scene4_86"
@@ -2094,98 +2094,98 @@
   },
   {
     "id": "scene4_89",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···.",
     "expression": "b_sad",
     "next_id": "scene4_90"
   },
   {
     "id": "scene4_90",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나에게 질색한 주인은···.",
     "expression": "b_sad",
     "next_id": "scene4_91"
   },
   {
     "id": "scene4_91",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그때부터 나를 새장에 가뒀어.",
     "expression": "b_sad",
     "next_id": "scene4_92"
   },
   {
     "id": "scene4_92",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "언젠간 열어줄 거라고 믿었는데···.",
     "expression": "b_sad",
     "next_id": "scene4_93"
   },
   {
     "id": "scene4_93",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "······.",
     "expression": "b_sad",
     "next_id": "scene4_94"
   },
   {
     "id": "scene4_94",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나는 점점 날개 펴는 법조차 까먹어 가기 시작했어.",
     "expression": "b_sad",
     "next_id": "scene4_95"
   },
   {
     "id": "scene4_95",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "펴는 법도 다시 나는 법도···.",
     "expression": "b_sad",
     "next_id": "scene4_96"
   },
   {
     "id": "scene4_96",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "날지 못하는 게 무슨 새야···?",
     "expression": "b_sad",
     "next_id": "scene4_97"
   },
   {
     "id": "scene4_97",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "멍청이! 멍청이!",
     "expression": "b_sad",
     "next_id": "scene4_98"
   },
   {
     "id": "scene4_98",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "펴지 못하는 날개가 너무 미워졌어···.",
     "expression": "b_sad",
     "next_id": "scene4_99"
   },
   {
     "id": "scene4_99",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "무슨 생각이었는진 잘 모르겠어.",
     "expression": "b_sad",
     "next_id": "scene4_100"
   },
   {
     "id": "scene4_100",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그냥, 제정신이 아니었어.",
     "expression": "b_sad",
     "next_id": "scene4_101"
   },
   {
     "id": "scene4_101",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "미운 날개를 없애면 좀 괜찮아질 것 같아서 스스로 깃털을 뽑았어···.",
     "expression": "b_sad",
     "next_id": "scene4_102"
   },
   {
     "id": "scene4_102",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "결국 이젠 외관조차 볼품없어지게 되었지.",
     "expression": "b_sad",
     "next_id": "scene4_103"
@@ -2227,42 +2227,42 @@
   },
   {
     "id": "scene4_108",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "하하!",
     "expression": "b_happy",
     "next_id": "scene4_109"
   },
   {
     "id": "scene4_109",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "주인도 그렇게 생각했다면 좋았을 텐데",
     "expression": "b_happy",
     "next_id": "scene4_110"
   },
   {
     "id": "scene4_110",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내 주인은 나한테 무슨 짓을 한 줄 알아?",
     "expression": "b_sad",
     "next_id": "scene4_111"
   },
   {
     "id": "scene4_111",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나를 그냥 쓰레기장에 갖다 버렸어!",
     "expression": "b_sad",
     "next_id": "scene4_112"
   },
   {
     "id": "scene4_112",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "날지도 못하고 아름답지도 못한 새는 쓰레기야!",
     "expression": "b_sad",
     "next_id": "scene4_113"
   },
   {
     "id": "scene4_113",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "쓰레기! 쓰레기!",
     "expression": "b_sad",
     "next_id": "scene4_114"
@@ -2283,28 +2283,28 @@
   },
   {
     "id": "scene4_116",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...이제 내가 왜 여기 있는지 알겠지?",
     "expression": "b_basic",
     "next_id": "scene4_117"
   },
   {
     "id": "scene4_117",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나는 돌아갈 생각이 없어.",
     "expression": "b_basic",
     "next_id": "scene4_118"
   },
   {
     "id": "scene4_118",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "여기서는 날개라도 펼 수 있는걸.",
     "expression": "b_basic",
     "next_id": "scene4_119"
   },
   {
     "id": "scene4_119",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "너라면 다시 돌아갈 수 있겠어?",
     "expression": "b_basic",
     "next_id": "scene4_120"
@@ -2353,21 +2353,21 @@
   },
   {
     "id": "scene4_126",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···.",
     "expression": "b_basic",
     "next_id": "scene4_127"
   },
   {
     "id": "scene4_127",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "······.",
     "expression": "b_basic",
     "next_id": "scene4_128"
   },
   {
     "id": "scene4_128",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "분하다고...?",
     "expression": "b_basic",
     "next_id": "scene4_129"
@@ -2423,7 +2423,7 @@
   },
   {
     "id": "scene4_136",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "행복할 자격···?",
     "expression": "basic",
     "next_id": "scene4_137"
@@ -2437,7 +2437,7 @@
   },
   {
     "id": "scene4_138",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...!",
     "expression": "b_basic",
     "next_id": "scene4_139"
@@ -2500,35 +2500,35 @@
   },
   {
     "id": "scene4_147",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "하하···!!",
     "expression": "b_happy",
     "next_id": "scene4_148"
   },
   {
     "id": "scene4_148",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "지칠 때까지 하는 건 괴롭히는 거 아니야~?",
     "expression": "b_happy",
     "next_id": "scene4_149"
   },
   {
     "id": "scene4_149",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "아하하···.",
     "expression": "b_happy",
     "next_id": "scene4_150"
   },
   {
     "id": "scene4_150",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "···.",
     "expression": "b_happy",
     "next_id": "scene4_151"
   },
   {
     "id": "scene4_151",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그래, 내가 졌어.",
     "expression": "b_basic",
     "next_id": "scene4_152"
@@ -2542,21 +2542,21 @@
   },
   {
     "id": "scene4_153",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나처럼 귀여운 새는 원래 어딜 가나 사랑받아야 하는 거지~?",
     "expression": "b_happy",
     "next_id": "scene4_154"
   },
   {
     "id": "scene4_154",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "우연히 마주친 강아지가 내 자존감을 너무 높여줘서",
     "expression": "b_happy",
     "next_id": "scene4_155"
   },
   {
     "id": "scene4_155",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "다음 생도 과연 성에 찰까 몰라~?",
     "expression": "b_happy",
     "next_id": "scene4_156"
@@ -2570,35 +2570,35 @@
   },
   {
     "id": "scene4_157",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...고마워.",
     "expression": "b_happy",
     "next_id": "scene4_158"
   },
   {
     "id": "scene4_158",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "...네 덕에 다시 한번 자유롭게 하늘로 날아보고 싶어졌어.",
     "expression": "b_happy",
     "next_id": "scene4_159"
   },
   {
     "id": "scene4_159",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "행복이란 거···. 뭔지도 궁금해졌고···.",
     "expression": "b_happy",
     "next_id": "scene4_160"
   },
   {
     "id": "scene4_160",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "넌 엄청 용맹한 강아지네, 다시 봤어.",
     "expression": "b_happy",
     "next_id": "scene4_161"
   },
   {
     "id": "scene4_161",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "용감한 너에게 이걸 맡길게~",
     "expression": "b_happy",
     "next_id": "scene4_162"
@@ -2612,14 +2612,14 @@
   },
   {
     "id": "scene4_163",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "내 마음의 조각이야.",
     "expression": "b_happy",
     "next_id": "scene4_164"
   },
   {
     "id": "scene4_164",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "나처럼 귀여운 새의 마음을 얻은 걸 영광으로 알아야 해~?",
     "expression": "b_happy",
     "next_id": "scene4_165"
@@ -2633,7 +2633,7 @@
   },
   {
     "id": "scene4_166",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "(앵무새가 사라진다.)",
     "expression": "b_happy",
     "next_id": "scene4_167"
@@ -3928,56 +3928,56 @@
   },
   {
     "id": "scene7_9",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "창문 너머로 스며드는 햇살 아래, 앵무새는 거실을 맴돕니다.",
     "expression": null,
     "next_id": "scene7_10"
   },
   {
     "id": "scene7_10",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "따뜻한 공기와 익숙한 손길 속에서 그는 자유로워 보입니다.",
     "expression": null,
     "next_id": "scene7_11"
   },
   {
     "id": "scene7_11",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "하지만 문이 열리는 순간, 발목엔 작은 족쇄가 채워집니다.",
     "expression": null,
     "next_id": "scene7_12"
   },
   {
     "id": "scene7_12",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그 족쇄는 그의 날갯짓을 막진 않지만, 자유로운 비상은 가로막습니다.",
     "expression": null,
     "next_id": "scene7_13"
   },
   {
     "id": "scene7_13",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "자유는 언제나 닿지 않는 거리 너머에 머뭅니다.",
     "expression": null,
     "next_id": "scene7_14"
   },
   {
     "id": "scene7_14",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그는 오늘도 사람의 손 위에 조용히 내려앉습니다.",
     "expression": null,
     "next_id": "scene7_15"
   },
   {
     "id": "scene7_15",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "익숙한 온기 속에서, 모순된 하루를 살아갑니다.",
     "expression": null,
     "next_id": "scene7_16"
   },
   {
     "id": "scene7_16",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "자유롭지만, 완전히 자유롭지 않은 존재로서.",
     "expression": null,
     "next_id": "scene7_17"
@@ -4208,56 +4208,56 @@
   },
   {
     "id": "scene8_25",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "화려한 깃털이 구름 사이를 가릅니다.",
     "expression": null,
     "next_id": "scene8_26"
   },
   {
     "id": "scene8_26",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "앵무새는 바람을 따라 높이 날아오릅니다.",
     "expression": null,
     "next_id": "scene8_27"
   },
   {
     "id": "scene8_27",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "더는 새장도, 벽도, 족쇄도 그를 막지 못합니다.",
     "expression": null,
     "next_id": "scene8_28"
   },
   {
     "id": "scene8_28",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "하늘엔 오직 바람과 날갯짓만이 있을 뿐.",
     "expression": null,
     "next_id": "scene8_29"
   },
   {
     "id": "scene8_29",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "지금 이 순간, 그는 진짜 자유를 느낍니다.",
     "expression": null,
     "next_id": "scene8_30"
   },
   {
     "id": "scene8_30",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "바람을 가르며 날갯짓은 더욱 찬란히 빛나고,",
     "expression": null,
     "next_id": "scene8_31"
   },
   {
     "id": "scene8_31",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "그의 눈엔 두려움 대신 생기가 반짝입니다.",
     "expression": null,
     "next_id": "scene8_32"
   },
   {
     "id": "scene8_32",
-    "speaker": "bird",
+    "speaker": "parrot",
     "text": "자유는 바로 지금 여기에 있습니다.",
     "expression": null,
     "next_id": "scene8_33"

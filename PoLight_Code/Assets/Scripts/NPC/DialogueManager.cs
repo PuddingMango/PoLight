@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections.Generic;
 
@@ -21,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     private DialogueLine currentLine;
     private bool isTalking = false;
     public bool IsTalking => isTalking;
+    public string CurrentSpeaker => currentLine?.speaker?.Trim().ToLower();
 
     void Awake()
     {
@@ -48,8 +50,15 @@ public class DialogueManager : MonoBehaviour
                 currentLine = DialogueDatabase.GetLine(currentLine.next_id);
                 if (currentLine != null)
                 {
-                    ShowBalloon(currentLine.speaker.Trim().ToLower(), currentLine.text);
+                    string speaker = currentLine.speaker.Trim().ToLower();
+                    ShowBalloon(speaker, currentLine.text);
                     PlayExpression(currentLine);
+
+                    if (currentLine.id == "scene3_90")
+                    {
+                        var light = FindFirstObjectByType<HamsterMapLight>();
+                        light?.FadeInGlobalLight();
+                    }
                 }
             }
             else
@@ -70,8 +79,16 @@ public class DialogueManager : MonoBehaviour
         }
 
         isTalking = true;
-        ShowBalloon(currentLine.speaker.Trim().ToLower(), currentLine.text);
+        string speaker = currentLine.speaker.Trim().ToLower();
+
+        ShowBalloon(speaker, currentLine.text);
         PlayExpression(currentLine);
+
+        if (SceneManager.GetActiveScene().name == "Scene3_17" && speaker == "hamster")
+        {
+            var light = FindFirstObjectByType<HamsterMapLight>();
+            light?.FadeInGlobalLight();
+        }
     }
 
     private void EndDialogue()
@@ -113,7 +130,6 @@ public class DialogueManager : MonoBehaviour
     private void RegisterAnchors()
     {
         speakerAnchors.Clear();
-
         speakerAnchors["player"] = playerBalloonAnchor;
         speakerAnchors["guide"] = GameObject.Find("GuideAnchor")?.transform;
         speakerAnchors["cat"] = GameObject.Find("CatAnchor")?.transform;
@@ -130,19 +146,39 @@ public class DialogueManager : MonoBehaviour
         speakerAnimators["cat"] = GameObject.Find("Cat")?.GetComponent<Animator>();
         speakerAnimators["parrot"] = GameObject.Find("Parrot")?.GetComponent<Animator>();
         speakerAnimators["hamster"] = GameObject.Find("Hamster")?.GetComponent<Animator>();
+
+        foreach (var pair in speakerAnimators)
+        {
+            if (pair.Value == null)
+                Debug.LogWarning($"[RegisterAnimators] '{pair.Key}' 애니메이터 등록 실패 (null)");
+            else
+                Debug.Log($"[RegisterAnimators] '{pair.Key}' 애니메이터 등록 완료");
+        }
     }
 
     private void PlayExpression(DialogueLine line)
     {
         string key = line.speaker.Trim().ToLower();
 
-        if (speakerAnimators.TryGetValue(key, out Animator animator) && animator != null)
+        if (speakerAnimators.TryGetValue(key, out Animator animator))
         {
-            animator.Play(line.expression);  
+            if (animator == null)
+            {
+                Debug.LogWarning($"[DialogueManager] '{key}'의 애니메이터는 null입니다 (컴포넌트 없음)");
+            }
+            else
+            {
+                bool hasState = animator.HasState(0, Animator.StringToHash(line.expression));
+                if (!hasState)
+                    Debug.LogWarning($"[DialogueManager] '{key}' 애니메이터에 '{line.expression}' 상태가 존재하지 않음");
+
+                Debug.Log($"[DialogueManager] '{key}' 애니메이터 → '{line.expression}' 상태 재생 시도");
+                animator.Play(line.expression);
+            }
         }
         else
         {
-            Debug.LogWarning($"[DialogueManager] '{key}'의 애니메이터가 존재하지 않음");
+            Debug.LogWarning($"[DialogueManager] '{key}'의 애니메이터가 딕셔너리에 없음");
         }
     }
 }

@@ -17,32 +17,29 @@ public class HamsterMapLight : MonoBehaviour
 
     [Header("Global Light")]
     public Light2D globalLight;
-    public float globalLightFadeDuration = 2f;
+    public float globalLightFadeDuration = 4f;
     public float globalTargetIntensity = 1f;
 
     private void Start()
     {
         if (playerLight != null) playerLight.intensity = 0f;
-        if (globalLight != null) globalLight.intensity = 0f;
+        if (globalLight != null)
+        {
+            globalLight.intensity = 0f;
+            globalLight.color = new Color(0, 0, 0); // 시작 시 어두운 색
+        }
 
         StartCoroutine(PlayIntroSequence());
     }
 
     private IEnumerator PlayIntroSequence()
     {
-        // 떨어지는 소리
         PlaySound(fallSound, fallVolume);
         yield return new WaitForSeconds(fallSound.length);
 
-        // 쿵 소리
         PlaySound(thudSound, thudVolume);
         yield return new WaitForSeconds(thudSound.length);
 
-        // 전체 맵 서서히 밝아짐
-        if (globalLight != null)
-            yield return StartCoroutine(FadeInGlobalLightCoroutine());
-
-        // 플레이어 주변도 점점 밝아짐
         if (playerLight != null)
             yield return StartCoroutine(FadeInPlayerLight());
     }
@@ -75,22 +72,53 @@ public class HamsterMapLight : MonoBehaviour
     public void FadeInGlobalLight()
     {
         if (globalLight != null)
-            StartCoroutine(FadeInGlobalLightCoroutine());
+            StartCoroutine(FadeGlobalAndFadeOutPlayer());
+    }
+
+    private IEnumerator FadeGlobalAndFadeOutPlayer()
+    {
+        Coroutine global = StartCoroutine(FadeInGlobalLightCoroutine());
+
+        if (playerLight != null)
+            StartCoroutine(FadeOutPlayerLight());
+
+        yield return global;
     }
 
     private IEnumerator FadeInGlobalLightCoroutine()
     {
-        float start = globalLight.intensity;
-        float elapsed = 0f;
+        float startIntensity = globalLight.intensity;
+        Color startColor = globalLight.color;
+        Color targetColor = Color.white;
 
+        float elapsed = 0f;
         while (elapsed < globalLightFadeDuration)
         {
             float t = elapsed / globalLightFadeDuration;
-            globalLight.intensity = Mathf.Lerp(start, globalTargetIntensity, t);
+
+            globalLight.intensity = Mathf.Lerp(startIntensity, globalTargetIntensity, t);
+            globalLight.color = Color.Lerp(startColor, targetColor, t);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
         globalLight.intensity = globalTargetIntensity;
+        globalLight.color = targetColor;
+    }
+
+    private IEnumerator FadeOutPlayerLight()
+    {
+        float start = playerLight.intensity;
+        float elapsed = 0f;
+
+        while (elapsed < globalLightFadeDuration)
+        {
+            float t = elapsed / globalLightFadeDuration;
+            playerLight.intensity = Mathf.Lerp(start, 0f, t);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        playerLight.intensity = 0f;
     }
 }
