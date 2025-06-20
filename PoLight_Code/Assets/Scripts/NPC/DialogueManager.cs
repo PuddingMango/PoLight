@@ -138,7 +138,7 @@ public class DialogueManager : MonoBehaviour
 
         if (speakerAnimators.TryGetValue(key, out Animator animator) && animator != null)
         {
-            animator.Play(line.expression);  // expression은 애니메이션 이름
+            animator.Play(line.expression);  
         }
         else
         {

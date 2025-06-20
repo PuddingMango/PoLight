@@ -410,14 +410,7 @@
     "speaker": "player",
     "text": "이런 곳에 누가 있긴 할까?",
     "expression": "basic",
-    "next_id": "scene2_5"
-  },
-  {
-    "id": "scene2_5",
-    "speaker": "player",
-    "text": "(스테이지를 탐험한다)",
-    "expression": "basic",
-    "next_id": "scene2_6"
+    "next_id": null
   },
   {
     "id": "scene2_6",
@@ -620,7 +613,7 @@
     "speaker": "cat",
     "text": "(더 이상 고양이에게 말을 걸 수 없는 것 같다.)",
     "expression": "c_angry",
-    "next_id": "scene2_35"
+    "next_id": null
   },
   {
     "id": "scene3_1",
@@ -662,7 +655,7 @@
     "speaker": "player",
     "text": "무서워···. 밖으로 나가는 길을 찾아보자!",
     "expression": "basic",
-    "next_id": "scene3_7"
+    "next_id": null
   },
   {
     "id": "scene3_7",
@@ -1481,7 +1474,7 @@
     "speaker": "player",
     "text": "…다시 만날 수 있으면 좋겠다.",
     "expression": "basic",
-    "next_id": "scene3_124"
+    "next_id": null
   },
   {
     "id": "scene4_1",

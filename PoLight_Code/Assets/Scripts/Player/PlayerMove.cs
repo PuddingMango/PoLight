@@ -2,16 +2,14 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
-    int jumpCount = 0;  
+    int jumpCount = 0;
 
     const float SPEED_JUMP = 7.0f;
-    const int MAX_JUMP_COUNT = 2;  
+    const int MAX_JUMP_COUNT = 2;
 
     const float SPEED_WALK = 3.0f;
     const float SPEED_RUN = 6.0f;
-    const float DOUBLE_TAP_TIME = 0.3f;  
+    const float DOUBLE_TAP_TIME = 0.3f;
 
     Rigidbody2D rb;
 
@@ -24,23 +22,28 @@ public class PlayerMove : MonoBehaviour
     float lastLeftTapTime = -1f;
     float lastRightTapTime = -1f;
 
-    bool isGrounded = false; 
+    bool isGrounded = false;
+
+    private PlayerSFX playerSFX;
+
+    public bool isRunning => isRunningLeft || isRunningRight;
+    public bool isMoving => leftPressed || rightPressed;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerSFX = GetComponent<PlayerSFX>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (DialogueManager.Instance != null && DialogueManager.Instance.IsTalking)
             return;
+
         if (rb != null)
         {
             float moveSpeed = SPEED_WALK;
             Vector3 pos = transform.position;
-
 
             if (Input.GetKeyDown(KeyCode.A))
             {
@@ -50,7 +53,6 @@ public class PlayerMove : MonoBehaviour
                 }
                 lastLeftTapTime = Time.time;
                 leftPressed = true;
-
             }
             if (Input.GetKeyUp(KeyCode.A))
             {
@@ -59,11 +61,9 @@ public class PlayerMove : MonoBehaviour
             }
             if (leftPressed)
             {
-
                 moveSpeed = isRunningLeft ? SPEED_RUN : SPEED_WALK;
                 pos.x -= moveSpeed * Time.deltaTime;
             }
-
 
             if (Input.GetKeyDown(KeyCode.D))
             {
@@ -73,7 +73,6 @@ public class PlayerMove : MonoBehaviour
                 }
                 lastRightTapTime = Time.time;
                 rightPressed = true;
-
             }
             if (Input.GetKeyUp(KeyCode.D))
             {
@@ -88,7 +87,6 @@ public class PlayerMove : MonoBehaviour
 
             transform.position = pos;
 
-
             if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && jumpCount < MAX_JUMP_COUNT)
             {
                 Vector3 moveVelocity = rb.linearVelocity;
@@ -96,6 +94,11 @@ public class PlayerMove : MonoBehaviour
                 rb.linearVelocity = moveVelocity;
 
                 jumpCount++;
+
+                if (playerSFX != null)
+                {
+                    playerSFX.PlayJumpSound();
+                }
             }
         }
     }
@@ -104,7 +107,6 @@ public class PlayerMove : MonoBehaviour
     {
         return isGrounded;
     }
-
 
     public bool IsWalking()
     {
@@ -131,13 +133,17 @@ public class PlayerMove : MonoBehaviour
         return rightPressed;
     }
 
-
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground")) 
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
             jumpCount = 0;
+
+            if (playerSFX != null)
+            {
+                playerSFX.SetGrounded(true);
+            }
         }
     }
 
@@ -146,6 +152,11 @@ public class PlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+
+            if (playerSFX != null)
+            {
+                playerSFX.SetGrounded(false);
+            }
         }
     }
 }

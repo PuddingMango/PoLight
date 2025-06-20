@@ -6,7 +6,7 @@ using System.Collections;
 public class LoadingManager : MonoBehaviour
 {
     [Header("8칸 로딩바")]
-    public Image[] cells; // 셀 10개
+    public Image[] cells; 
     public Sprite emptySprite;
     public Sprite filledSprite;
 

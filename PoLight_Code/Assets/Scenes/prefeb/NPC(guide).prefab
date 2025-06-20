@@ -88,7 +88,7 @@ SpriteRenderer:
   m_Size: {x: 0.39, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &5578202948806650468
@@ -126,7 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcID: guide
-  balloonAnchor: {fileID: 0}
 --- !u!61 &5404311904596117482
 BoxCollider2D:
   m_ObjectHideFlags: 0
